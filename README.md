@@ -1,9 +1,4 @@
 # Windows app shortcut
 
 - For some app web can create with `create shortcut` in chrome like `doc.new` is example
-- install script, require git
-
-> powershell
-```powershell
-git clone https://github.com/thuanpham2311/windowsApp '$env:appdata\%APPDATA%\Microsoft\Windows\Start Menu\Programs\Chrome Apps\windowsApp'
-```
+- put this repo to in `%appdata%\Microsoft\Windows\Start Menu\Programs\Chrome Apps\` or whatever you want **but** you need change path icon again fit with your new location
